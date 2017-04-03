@@ -5,7 +5,7 @@ public class RocketView: UIView {
     private var _flameAlpha: CGFloat = 1.0
     private var _flameHeight: CGFloat = 1.0
     
-    var flameAlpha: CGFloat {
+    public var flameAlpha: CGFloat {
         set (newAlpha) {
             _flameAlpha = newAlpha
             setNeedsDisplay()
@@ -14,7 +14,7 @@ public class RocketView: UIView {
         }
     }
     
-    var flameHeight: CGFloat {
+    public var flameHeight: CGFloat {
         set (newHeight) {
             _flameHeight = newHeight
             setNeedsDisplay()

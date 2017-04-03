@@ -434,8 +434,6 @@ public class IntroStyleKit : NSObject {
         
     }
 
-
-
     @objc(IntroStyleKitResizingBehavior)
     public enum ResizingBehavior: Int {
         case aspectFit /// The content is proportionally resized to fit into the target rectangle.
